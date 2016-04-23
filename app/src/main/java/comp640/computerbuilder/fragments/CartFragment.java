@@ -17,10 +17,12 @@ import comp640.computerbuilder.R;
 /**
  * Created by deandubois on 4/17/16.
  */
-<<<<<<< HEAD
 public class CartFragment extends Fragment {
 
     Button checkOut;
+=======
+public class CartFragment extends CBFragment {
+>>>>>>> anturner130/master
 =======
 public class CartFragment extends CBFragment {
 >>>>>>> anturner130/master
