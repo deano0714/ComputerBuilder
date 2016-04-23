@@ -8,30 +8,32 @@
         android:text="Shopping Cart"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal"
-        android:layout_alignBottom="@+id/button"
+        android:layout_alignBottom="@+id/check_out_button"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="false"
         android:layout_alignParentBottom="false"
         android:layout_alignParentRight="false"
-        android:layout_alignWithParentIfMissing="false" />
+        android:layout_alignWithParentIfMissing="false"
+        android:padding="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Check Out"
-        android:id="@+id/button"
+        android:id="@+id/check_out_button"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="20dp" />
 
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="25dp"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#373fac">
+        android:background="#373fac"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,7 +44,16 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:paddingLeft="10dp"/>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        > </RelativeLayout>
 
 </RelativeLayout>
